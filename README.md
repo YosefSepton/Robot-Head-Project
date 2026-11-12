@@ -1,3 +1,12 @@
+<img width="133" height="49" alt="Screenshot 2026-10-30 172157" src="https://github.com/user-attachments/assets/d5ea2b2f-ee26-4d55-8dc9-92126e604390" />
+<img width="482" height="443" alt="Screenshot 2026-11-04 220231" src="https://github.com/user-attachments/assets/f02edefd-8f71-4245-85c8-acc36ea97e11" />
+<img width="448" height="350" alt="Screenshot 2026-11-08 133554" src="https://github.com/user-attachments/assets/7bf23d8f-c2fd-4091-acb8-a146464b8068" />
+<img width="641" height="434" alt="Screenshot 2026-11-07 200838" src="https://github.com/user-attachments/assets/21aa84dc-d174-4a6a-ad97-b9c9a6710517" />
+<img width="508" height="337" alt="Screenshot 2026-11-08 133608" src="https://github.com/user-attachments/assets/1f0808ff-1226-43c1-bc2a-53bf0bd20dd2" />
+<img width="959" height="500" alt="Screenshot 2026-11-11 194245" src="https://github.com/user-attachments/assets/e0b8b4be-f188-4d2b-a007-14193e489b6d" />
+<img width="332" height="217" alt="Screenshot 2026-11-11 193405" src="https://github.com/user-attachments/assets/8b23cbd1-50b0-4f8a-8e55-394ad9eca690" />
+<img width="427" height="266" alt="Screenshot 2026-11-11 193351" src="https://github.com/user-attachments/assets/9d7c10b1-bac6-4b4f-bb2e-708f0ae6932e" />
+<img width="378" height="240" alt="Screenshot 2026-11-11 193343" src="https://github.com/user-attachments/assets/f82039f4-3de1-49a9-a06f-872059a4483c" />
 # AI Robot Head – Custom-Built AI Robotic Companion
 
 A custom-built AI robotic companion featuring a Raspberry Pi 5 with 16GB of RAM, a touchscreen, camera, microphone array, speakers, and a motorized neck.
