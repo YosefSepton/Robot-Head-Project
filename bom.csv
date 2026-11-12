@@ -1,0 +1,20 @@
+Item,Category,Part,What it's for,Qty,Unit Price (USD),Line Total (USD),Store,Link,Have It,Notes
+1,Computer,Raspberry Pi 5 16GB Starter Kit (Seeed Studio),"The robot's brain. Bought as a kit because the board alone ($378) wasn't showing up on Amazon, and the kit comes with the fan, so it actually saves money.",1,379.80,379.80,Amazon,https://www.amazon.com/dp/B0GD58SJFK,,"Check what else is in the kit: if it already has a power supply or microSD card, items 12 and 15 may not be needed."
+2,Display,ELECROW 7-inch 1024x600 Capacitive Touchscreen,The robot's face.,1,53.99,53.99,Amazon,https://www.amazon.com/dp/B08FMNDDSL,,
+3,Camera,MMlove 170-degree USB Camera (OV2710),Lets the robot see and follow the user.,1,58.99,58.99,Amazon,https://www.amazon.com/dp/B0GVXND5H4,,
+4,Audio,ReSpeaker XMOS XVF3800 4-Mic Array,360-degree microphone so the robot hears the user's voice well.,1,79.90,79.90,Amazon,https://www.amazon.com/dp/B0GVJ5YQ58,,"Price confirmed as $79.90 (the original list had $69.90 in its total by mistake). Original list said store ""Store"" but the link is Amazon."
+5,Audio,FUNLOGY 14W Stereo PC Speakers,Clear and loud sound for the robot's voice.,1,21.99,21.99,Amazon,https://www.amazon.com/dp/B0DTYTZGBN,,
+6,Motion,Smraza Waterproof 270-degree Servo Motors (2-pack),Move the neck: turning and nodding. The 2-pack saves $12.,1,39.99,39.99,Amazon,https://www.amazon.com/dp/B0CX1GZC98,,Qty 1 = one pack of 2 motors.
+7,Motion,PCA9685 16-Channel Servo Controller,Controls the servo motors.,1,12.99,12.99,Amazon,https://www.amazon.com/dp/B0CRV3MK14,,"The original list called it HiLetgo, but the link is a HUAREW board. Both are PCA9685 boards; make sure you buy the one you mean."
+8,Power,SHNITPWR Adjustable Servo Power Supply,Gives the motors a controlled voltage and power.,1,24.99,24.99,Amazon,https://www.amazon.com/dp/B08N4FB7MF,,
+9,Wiring,ELEGOO 120-Piece Jumper Wire Kit,Signal wires to connect the motors to the boards.,1,6.98,6.98,Amazon,https://www.amazon.com/dp/B01EV70C78,,
+10,Wiring,18-AWG DC Power Wire Kit,Connects the servo board to power.,1,10.39,10.39,Amazon,https://www.amazon.com/dp/B072BXB2Y8,,
+11,Power,One Beat Power Strip,"Goes in the base. Powers everything that plugs into the wall and keeps it neat.",1,12.99,12.99,Amazon,https://www.amazon.com/dp/B0B1DKN9HG,,"Original list said store ""Store"" but the link is Amazon."
+12,Power,RasTech 27W USB-C Power Supply for Raspberry Pi 5 (5.1V 5A),Powers the Raspberry Pi.,1,12.34,12.34,Amazon,https://www.amazon.com/dp/B0CLV6WB4L,,
+13,3D Printing,Bambu Lab PETG Basic Filament,"Material for printing the head. PETG is strong and smooth. 4 spools so there is plenty and more than one color.",4,14.44,57.76,Bambu Lab,https://us.store.bambulab.com/products/petg-basic,,Qty 4 = 4 spools.
+14,3D Printing,Bambu Lab Support for PLA/PETG,Support material so printed parts come out much smoother.,1,20.99,20.99,Bambu Lab,https://us.store.bambulab.com/products/support-for-pla-petg,,
+15,Storage,SanDisk Extreme 128GB microSD Card + Adapter (up to 245MB/s read),Storage for the Raspberry Pi.,1,41.99,41.99,Amazon,https://www.amazon.com/dp/B0G8LLXFJH,,
+,,Subtotal - Amazon (items 1-12 and 15),,,,757.33,Amazon,,,
+,,Subtotal - Bambu Lab (items 13-14),,,,78.75,Bambu Lab,,,No tax or shipping was listed for the Bambu Lab order.
+,,Sales tax (Amazon),,,,60.59,Amazon,,,"8% of the Amazon subtotal ($757.33). The original list had $59.79, which was 8% of the old, lower subtotal."
+,,TOTAL,,,,896.67,,,,"Was $885.87 in the original list; up $10.80 because the ReSpeaker is $79.90. Shipping is not included (none was listed)."
