@@ -1,33 +1,178 @@
-# Robot-Head-Project
-A custom-built AI robotic companion with a Raspberry Pi, touchscreen, camera, microphone, and motorized neck
-AI Robot Head – Parts List
-Main components
-Part	Price	Amazon
-Raspberry Pi 5 – 16GB RAM	$378.00	Link
-GeeekPi Raspberry Pi 5 Cooler	$11.99	Link
-ELECROW 7-inch Touchscreen	$53.99	Link
-USB Camera – Wide Angle	~$51.00	Final link to verify
-ReSpeaker XVF3800 4-Mic Array	$79.90	Amazon
-LIELONGREN Speakers	$16.98	Amazon
-Motors and movement
-Part	Price	Amazon
-2× Smraza 270° Servo Motors	$51.98	Link
-HiLetgo PCA9685 Servo Controller	$13.99	Amazon
-SHNITPWR Adjustable Power Supply	$24.99	Amazon
-Cables and electrical components
-Part	Price	Amazon
-ELEGOO 120-Piece Jumper Wire Kit	$6.98	Link
-18-AWG DC Power Wire Kit	$6.99	Link
-USB-C Cable	$6.99	Link
-One Beat Power Strip	$9.97	Link
- 
+# AI Robot Head – Custom-Built AI Robotic Companion
 
-Total estimated cost
-$713.75
-the price is a little off i estimate that in the end it will cost 800-850$ including filament the model is complete but still hard to print which ill fully and easily printable when i start building it this is a ai robot chat bot it can spin around and nod it will have a camera to track u and a mic so u can talk with it i made a full app that will run on a raspberry pi 16gb ram i know that 400$ for a chat bot it can probably work with a 8gb ram if i would take out 75% of the features which wouldn't make it worth the 500$ then but if someone wants it ill do it i made it a very easy app to install just a .exe when i start building the model i make it built into the raspberry Linux so it will be smoother but i have no raspberry pi to test all i have is windows pc. below is a link to the .exe and videos of it on my pc  
+A custom-built AI robotic companion featuring a Raspberry Pi 5 with 16GB of RAM, a touchscreen, camera, microphone array, speakers, and a motorized neck.
 
-https://drive.google.com/file/d/1h9VeBtCXhQ4OoPYfxNRKdbChb2cyTcSq/view?usp=sharing this is for the .exe
+# Full Parts List
 
-https://drive.google.com/file/d/11tZIuAtOSYqX6bwp0hpNuKTanBxRtTHR/view?usp=sharing, https://drive.google.com/file/d/1Jr9HSe4ddXIZgk4nltNuLcAXCt6QMBxz/view?usp=sharing, https://drive.google.com/file/d/1fODqtLviIr7q9icY4muSxNgAIR2JrqG8/view?usp=sharing
+## Main Components
 
-these are links to the vidoe of the ai model in use https://makerworld.com/en/models/3593933-ai-robot-head-chatbot link to this on makerworld
+### 1. Raspberry Pi 5 – 16GB RAM (Seeed Studio Starter Kit)
+- **Price:** $379.80
+- **Quantity:** 1
+- **Purpose:** This is the brain of the robot. It will run the AI chatbot, application, camera tracking, microphone processing, and other features. I originally planned to buy the Raspberry Pi by itself, but the 16GB version was no longer showing up on Amazon at the price I found. I switched to a starter kit that includes a fan, which also saves me from buying a separate cooler.
+- **Amazon:** https://www.amazon.com/Seeed-Studio-Raspberry-Pi-Starter/dp/B0GD58SJFK
+
+### 2. ELECROW 7-inch 1024×600 Touchscreen
+- **Price:** $53.99
+- **Quantity:** 1
+- **Purpose:** This screen will be used as the robot's face. It will display the chatbot interface and allow the robot to show expressions and information.
+- **Amazon:** https://www.amazon.com/ELECROW-Raspberry-Touchscreen-Capacitive-1024x600/dp/B08FMNDDSL
+
+### 3. MMlove 170° USB Camera (OV2710)
+- **Price:** $58.99
+- **Quantity:** 1
+- **Purpose:** This is the robot's camera. It will be used to see and track the user so the robot can follow them by moving its head.
+- **Amazon:** https://www.amazon.com/MMlove-Camera-Webcam-170degree-fisheye/dp/B0GVXND5H4
+
+### 4. ReSpeaker XMOS XVF3800 4-Microphone Array
+- **Price:** $69.90
+- **Quantity:** 1
+- **Purpose:** This is the robot's microphone system. It has four microphones and is designed to capture voices from different directions, helping the robot hear the user.
+- **Amazon:** https://www.amazon.com/gp/aw/d/B0GVJ5YQ58
+
+### 5. FUNLOGY 14W Stereo PC Speakers
+- **Price:** $21.99
+- **Quantity:** 1
+- **Purpose:** These speakers will provide audio output for the AI chatbot so the robot can speak clearly and loudly enough to be heard.
+- **Amazon:** https://www.amazon.com/FUNLOGY-Speaker-Speakers-Powered-Consoles/dp/B0DTYTZGBN
+
+## Motors and Movement
+
+### 6. Smraza Waterproof 270° Servo Motors
+- **Price:** $39.99
+- **Quantity:** 1 pack (2 motors)
+- **Purpose:** These two motors will control the robot's neck movement. One will rotate the head, while the other will move it up and down so it can nod and look around.
+- **Amazon:** https://www.amazon.com/dp/B0CX1GZC98
+
+### 7. PCA9685 Servo Controller (HUAREW)
+- **Price:** $12.99
+- **Quantity:** 1
+- **Purpose:** This board will control the servo motors. It connects to the Raspberry Pi and allows the application to send movement commands to the motors.
+- **Amazon:** https://www.amazon.com/HUAREW-PCA9685-Interface-Compatible-Raspberry/dp/B0CRV3MK14
+
+### 8. SHNITPWR Adjustable Servo Power Supply
+- **Price:** $24.99
+- **Quantity:** 1
+- **Purpose:** This power supply will provide adjustable voltage and power to the servo motors through the servo controller.
+- **Amazon:** https://www.amazon.com/dp/B08N4FB7MF
+
+## Cables and Electrical Components
+
+### 9. ELEGOO 120-Piece Dupont Jumper Wire Kit
+- **Price:** $6.98
+- **Quantity:** 1 kit
+- **Purpose:** These wires will connect the Raspberry Pi to the PCA9685 servo controller and other electronic components. They carry control signals between the boards.
+- **Amazon:** https://www.amazon.com/dp/B01EV70C78
+
+### 10. 18-AWG DC Power-Wire Kit
+- **Price:** $10.39
+- **Quantity:** 1 kit
+- **Purpose:** These thicker wires will connect the servo power supply to the servo controller and carry power to the motors.
+- **Amazon:** https://www.amazon.com/dp/B072BXB2Y8
+
+### 11. One Beat Power Strip
+- **Price:** $12.99
+- **Quantity:** 1
+- **Purpose:** This will be installed inside the robot's base to provide power to the components that need to be plugged into a wall outlet and keep the power connections organized.
+- **Amazon:** https://www.amazon.com/dp/B0B1DKN9HG
+
+### 12. RasTech Raspberry Pi 5 GaN PD 27W USB-C Power Supply
+- **Price:** $12.34
+- **Quantity:** 1
+- **Purpose:** This power adapter will provide power to the Raspberry Pi 5.
+- **Amazon:** https://www.amazon.com/RasTech-Power-Supply-Raspberry-Adapter/dp/B0CLV6WB4L
+
+### 13. SanDisk Extreme 128GB microSD Card + Adapter
+- **Price:** $41.99
+- **Quantity:** 1
+- **Purpose:** This card will store Raspberry Pi OS, the robot's application, and other files needed to run the robot.
+- **Amazon:** https://www.amazon.com/SANDISK-Extreme-microSD-Adapter-Speeds/dp/B0G8LLXFJH
+
+## 3D Printing Materials – Bambu Lab
+
+### 14. Bambu Lab PETG Basic Filament
+- **Price:** $14.44 per roll
+- **Quantity:** 4 rolls
+- **Total:** $57.76
+- **Purpose:** PETG will be used to 3D print the robot's body and mechanical components. I chose PETG because it is suitable for strong functional parts, including gears and structural components. I also want to use multiple colors.
+- **Bambu Lab:** https://us.store.bambulab.com/products/petg-basic
+
+### 15. Bambu Lab Support for PLA/PETG
+- **Price:** $20.99
+- **Quantity:** 1 roll
+- **Purpose:** This filament will be used as support material during 3D printing. It helps support difficult geometries and makes removing supports easier, improving the finish of printed parts.
+- **Bambu Lab:** https://us.store.bambulab.com/products/support-for-pla-petg
+
+# Total Estimated Project Cost
+
+## Amazon Purchases
+
+| Description | Price |
+|---|---:|
+| Amazon parts subtotal | $747.33 |
+| Estimated Amazon sales tax (8%) | $59.79 |
+| Amazon shipping | Free |
+| **Amazon total** | **$807.12** |
+
+## Bambu Lab Purchases
+
+| Description | Price |
+|---|---:|
+| PETG filament (4 rolls) | $57.76 |
+| Support filament (1 roll) | $20.99 |
+| Bambu Lab subtotal | $78.75 |
+| Bambu Lab tax (assumed $0.00) | $0.00 |
+| Bambu Lab shipping | Not included |
+| **Bambu Lab total** | **$78.75** |
+
+## Grand Total
+
+| Description | Price |
+|---|---:|
+| Amazon total including estimated tax | $807.12 |
+| Bambu Lab total | $78.75 |
+| **Estimated Grand Total** | **$885.87** |
+
+*Tax is estimated at 8% for Amazon purchases only. Bambu Lab tax is currently assumed to be $0.00, as requested, and should be confirmed at checkout. Filament shipping, if applicable, is not included.*
+
+# About the Project
+
+The 3D model is complete, but it is still difficult to print. When I start building the robot, I'll modify the model to make all the parts fully printable and easier to assemble.
+
+This is an AI robotic companion and chatbot. It will be able to rotate its head and nod up and down using two servo motors. It will also have a camera to track the user and a microphone array so you can talk with it.
+
+I've developed a full application for the robot that is designed to run on a Raspberry Pi 5 with 16GB of RAM.
+
+I know that a cheaper setup with 8GB of RAM might be possible, but I estimate that I would have to remove around 75% of the planned features. That wouldn't make the project worth the approximately $500 cost to me. However, if someone wants an 8GB version, I'm willing to consider making one.
+
+I've made the application very easy to install. Currently, it can be installed using a simple `.exe` file.
+
+When I start building the physical robot, I plan to adapt the application to run directly on Raspberry Pi OS (Linux), rather than relying on the Windows executable. This should make it run more smoothly and integrate better with the robot's hardware.
+
+I haven't been able to test the application on a Raspberry Pi yet because I don't currently own one. All my development and testing so far have been done on my Windows PC.
+
+Below are the application file and videos demonstrating the AI application running on my computer.
+
+# Application and Demonstrations
+
+### Windows Application (.exe)
+
+https://drive.google.com/file/d/1h9VeBtCXhQ4OoPYfxNRKdbChb2cyTcSq/view?usp=sharing
+
+### Videos Showing the AI Application Running on My PC
+
+**Video 1:**
+
+https://drive.google.com/file/d/11tZIuAtOSYqX6bwp0hpNuKTanBxRtTHR/view?usp=sharing
+
+**Video 2:**
+
+https://drive.google.com/file/d/1Jr9HSe4ddXIZgk4nltNuLcAXCt6QMBxz/view?usp=sharing
+
+**Video 3:**
+
+https://drive.google.com/file/d/1fODqtLviIr7q9icY4muSxNgAIR2JrqG8/view?usp=sharing
+
+### MakerWorld Project
+
+https://makerworld.com/en/models/3593933-ai-robot-head-chatbot
